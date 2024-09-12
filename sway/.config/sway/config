@@ -25,7 +25,7 @@ set $menu wofi --show=drun --line=5 --prompt=""
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/charan/Downloads/feh/wallhaven-o5qwl7.jpg fill
+output * bg ~/Downloads/feh/wallhaven-o5qwl7.jpg fill
 #
 # Example configuration:
 #
@@ -229,8 +229,8 @@ bindsym $mod+Shift+period exec systemctl suspend
 
 # FKeys
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec amixer -q sset Master 5%+
-bindsym XF86AudioLowerVolume exec amixer -q sset Master 5%-
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
 bindsym XF86AudioMute exec amixer -q sset Master toggle
 
 # Sreen brightness controls
