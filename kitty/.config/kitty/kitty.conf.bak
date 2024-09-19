@@ -1,5 +1,5 @@
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Catppuccin-Frappe
 include current-theme.conf
 # END_KITTY_THEME
 
@@ -7,6 +7,5 @@ font_family MesloLGS Nerd Font Mono
 bold_font MesloLGS Nerd Font Mono
 italic_font MesloLGS Nerd Font Mono
 bold_italic_font MesloLGS Nerd Font Mono
-
-cursor_text_color #111111
-cursor_shape block
+# cursor none
+macos_colorspace srgb
