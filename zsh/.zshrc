@@ -13,6 +13,8 @@ bindkey -s ^f "tmux-sessionizer\n"
 PATH="$PATH":"$HOME/.local/scripts/"
 alias -g vim="nvim"
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:/usr/local/jdk-23/bin
+export PATH=$PATH:/opt/gradle/gradle-8.10.1/bin
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -117,3 +119,9 @@ esac
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/charan/.dart-cli-completion/zsh-config.zsh ]] && . /home/charan/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+

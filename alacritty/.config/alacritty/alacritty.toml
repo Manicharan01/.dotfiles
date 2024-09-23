@@ -1,5 +1,5 @@
 [font]
-normal = { family = "MesloLGS NF", style = "Regular" }
+normal = { family = "MesloLGS Nerd Font", style = "Regular" }
 
 [window]
 #opacity = 0.7
