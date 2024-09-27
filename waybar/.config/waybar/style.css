@@ -1,73 +1,104 @@
+@define-color base00 #181818;
+@define-color base01 #2b2e37;
+@define-color base02 #3b3e47;
+@define-color base03 #585858;
+@define-color base04 #b8b8b8;
+@define-color base05 #d8d8d8;
+@define-color base06 #e8e8e8;
+@define-color base07 #f8f8f8;
+@define-color base08 #ab4642;
+@define-color base09 #dc9656;
+@define-color base0A #f7ca88;
+@define-color base0B #a1b56c;
+@define-color base0C #86c1b9;
+@define-color base0D #7cafc2;
+@define-color base0E #ba8baf;
+@define-color base0F #a16946;
+
 * {
-    border: none;
-    border-radius: 0;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13px;
-    min-height: 0;
+  transition: none;
+  box-shadow: none;
 }
 
-window#waybar {
-    background: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
-    color: white;
+#waybar {
+	font-family: 'Monospace', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+  color: @base04;
+  background: @base01;
 }
 
-tooltip {
-  background: rgba(43, 48, 59, 0.5);
-  border: 1px solid rgba(100, 114, 125, 0.5);
-}
-tooltip label {
-  color: white;
+#workspaces {
+  margin: 0 4px;
 }
 
 #workspaces button {
-    padding: 0 5px;
-    background: transparent;
-    color: white;
-    border-bottom: 3px solid transparent;
+  margin: 4px 0;
+  padding: 0 4px;
+  color: @base05;
 }
 
-#workspaces button.focused {
-    background: #64727D;
-    border-bottom: 3px solid white;
+#workspaces button.visible {
 }
 
-#mode, #clock, #battery {
-    padding: 0 10px;
+#workspaces button.active {
+  border-radius: 4px;
+  background-color: @base02;
 }
 
-#mode {
-    background: #64727D;
-    border-bottom: 3px solid white;
+#workspaces button.urgent {
+  color: rgba(238, 46, 36, 1);
+}
+
+#tray {
+  margin: 4px 4px 4px 4px;
+  border-radius: 4px;
+  background-color: @base02;
+}
+
+#tray * {
+  padding: 0 6px;
+  border-left: 1px solid @base00;
+}
+
+#tray *:first-child {
+  border-left: none;
+}
+
+#mode, #battery, #cpu, #memory, #network, #pulseaudio, #idle_inhibitor, #backlight, #custom-storage, #custom-updates, #custom-weather, #custom-mail, #clock, #temperature, #language{
+  margin: 4px 2px;
+  padding: 0 6px;
+  background-color: @base02;
+  border-radius: 4px;
+  min-width: 20px;
+}
+
+#pulseaudio.muted {
+  color: @base0F;
+}
+
+#pulseaudio.bluetooth {
+  color: @base0C;
 }
 
 #clock {
-    background-color: #64727D;
+  margin-left: 0px;
+  margin-right: 4px;
+  background-color: transparent;
 }
 
-#battery {
-    background-color: #ffffff;
-    color: black;
+#temperature.critical {
+  color: @base0F;
 }
 
-#battery.charging {
-    color: white;
-    background-color: #26A65B;
+#window {
+  font-size: 0.9em;
+	font-weight: 400;
+	font-family: sans-serif;
 }
 
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: black;
-    }
-}
-
-#battery.warning:not(.charging) {
-    background: #f53c3c;
-    color: white;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: steps(12);
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+#language {
+	font-size: 0.9em;
+	font-weight: 500;
+	letter-spacing: -1px;
 }

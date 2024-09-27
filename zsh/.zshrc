@@ -125,3 +125,4 @@ export NVM_DIR="$HOME/.nvm"
 [[ -f /home/charan/.dart-cli-completion/zsh-config.zsh ]] && . /home/charan/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
 
+. "/home/charan/.deno/env"
