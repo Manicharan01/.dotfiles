@@ -126,3 +126,6 @@ export NVM_DIR="$HOME/.nvm"
 ## [/Completion]
 
 . "/home/charan/.deno/env"
+
+# Created by `pipx` on 2024-09-28 23:27:34
+export PATH="$PATH:/home/charan/.local/bin"
