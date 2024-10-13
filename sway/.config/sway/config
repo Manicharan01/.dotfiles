@@ -26,7 +26,7 @@ set $menu ulauncher --no-window-shadow
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Downloads/feh/wallhaven-o5qwl7.jpg fill
+output * bg ~/.dotfiles/wallpapers/wallhaven-o5qwl7.jpg fill
 #
 # Example configuration:
 #

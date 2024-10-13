@@ -3,6 +3,7 @@
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+source /home/charan/.local/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -11,11 +12,12 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 bindkey -s ^f "tmux-sessionizer\n"
 PATH="$PATH":"$HOME/.local/scripts/"
-alias -g vim="nvim"
+#alias -g vim="nvim"
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/usr/local/jdk-23/bin
 export PATH=$PATH:/opt/gradle/gradle-8.10.1/bin
 export XCURSOR_PATH=$XCURSOR_PATH:/home/charan/.local/share/icons
+#export PATH=$PATH:/usr/local/zig
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -77,7 +79,7 @@ HIST_STAMPS="dd/mm/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-autocomplete)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -130,3 +132,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # Created by `pipx` on 2024-09-28 23:27:34
 export PATH="$PATH:/home/charan/.local/bin"
+eval "$(zoxide init zsh)"
