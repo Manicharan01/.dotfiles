@@ -20,8 +20,8 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-#set $menu wofi --show=drun --line=5 --prompt=""
-set $menu ulauncher --no-window-shadow
+set $menu wofi --show=drun --line=5 --prompt=""
+#set $menu ulauncher --no-window-shadow
 
 ### Output configuration
 #
@@ -37,11 +37,13 @@ output * bg ~/.dotfiles/wallpapers/wallhaven-o5qwl7.jpg fill
 ### Idle configuration
 #
 # Example configuration:
-#
-exec swayidle -w \
-         timeout 300 'swaylock -f -c 000000' \
-         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-         before-sleep 'swaylock -f -c 000000'
+
+#exec swayidle -w \
+#         timeout 300 'swaylock -f -c 000000' \
+#         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+#         before-sleep 'swaylock -f -c 000000'
+
+exec hypridle
 
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -251,7 +253,8 @@ output eDP-1 {
 
 bindsym $mod+Shift+b exec firefox
 bindsym $mod+Shift+y exec wezterm
-bindsym $mod+Shift+period exec systemctl suspend
+#bindsym $mod+Shift+period exec systemctl suspend
+bindsym $mod+Shift+period exec hyprlock | pidof hyprlock
 
 
 # FKeys
