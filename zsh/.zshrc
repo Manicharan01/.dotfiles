@@ -18,6 +18,8 @@ export PATH=$PATH:/usr/local/jdk-23/bin
 export PATH=$PATH:/opt/gradle/gradle-8.10.1/bin
 export XCURSOR_PATH=$XCURSOR_PATH:/home/charan/.local/share/icons
 #export PATH=$PATH:/usr/local/zig
+export SWAY_SCREENSHOT_DIR="/home/charan/Pictures"
+. /opt/asdf-vm/asdf.sh
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load

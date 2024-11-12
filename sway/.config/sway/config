@@ -38,12 +38,10 @@ output * bg ~/.dotfiles/wallpapers/wallhaven-o5qwl7.jpg fill
 #
 # Example configuration:
 
-#exec swayidle -w \
-#         timeout 300 'swaylock -f -c 000000' \
-#         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-#         before-sleep 'swaylock -f -c 000000'
-
-exec hypridle
+exec swayidle -w \
+         timeout 300 'swaylock -f -c 000000' \
+         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+         before-sleep 'swaylock -f -c 000000'
 
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -253,18 +251,20 @@ output eDP-1 {
 
 bindsym $mod+Shift+b exec firefox
 bindsym $mod+Shift+y exec wezterm
-#bindsym $mod+Shift+period exec systemctl suspend
-bindsym $mod+Shift+period exec hyprlock | pidof hyprlock
-
+bindsym $mod+Shift+period exec systemctl suspend
+bindsym PRINT exec hyprshot -m output
+bindsym Shift+PRINT exec hyprshot -m region
+bindsym Mod4+m exec notify-send Twitch "mooda is live"
+bindsym Mod4+n exec swaync-client -t -sw
 
 # FKeys
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
-bindsym XF86AudioMute exec pactl set-sink-mute 0 'toggle'
+bindsym XF86AudioRaiseVolume exec $HOME/.local/scripts/volume-up.sh
+bindsym XF86AudioLowerVolume exec $HOME/.local/scripts/volume-down.sh
+bindsym XF86AudioMute exec $HOME/.local/scripts/volume-mute.sh
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec brightnessctl s 10%+
-bindsym XF86MonBrightnessDown exec brightnessctl s 10%-
+bindsym XF86MonBrightnessUp exec $HOME/.local/scripts/brightness-up.sh
+bindsym XF86MonBrightnessDown exec $HOME/.local/scripts/brightness-down.sh
 
 include /etc/sway/config.d/*
