@@ -14,5 +14,6 @@ config.window_padding = {
 config.enable_wayland = true
 config.color_scheme = 'Default Dark (base16)'
 config.bold_brightens_ansi_colors = true
+config.window_background_opacity = 0.9
 
 return config

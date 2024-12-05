@@ -19,6 +19,7 @@ export PATH=$PATH:/opt/gradle/gradle-8.10.1/bin
 export XCURSOR_PATH=$XCURSOR_PATH:/home/charan/.local/share/icons
 #export PATH=$PATH:/usr/local/zig
 export SWAY_SCREENSHOT_DIR="/home/charan/Pictures"
+export QT_QPA_PLATFORMTHEME=qt6ct
 . /opt/asdf-vm/asdf.sh
 
 # Set list of themes to pick from when loading at random
