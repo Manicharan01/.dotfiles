@@ -1,0 +1,14 @@
+theme = "mine"
+bold-is-bright = true
+font-family = "JetBrains Mono"
+font-style = "Bold"
+font-size = 16
+# adjust-cell-height = 35%
+window-padding-x = 8
+window-padding-y = 8
+window-padding-balance = true
+window-decoration = false
+cursor-invert-fg-bg = true
+cursor-style = block
+cursor-style-blink = false
+term = "alacritty"

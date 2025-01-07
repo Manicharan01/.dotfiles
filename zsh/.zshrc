@@ -11,16 +11,48 @@ source /home/charan/.local/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 bindkey -s ^f "tmux-sessionizer\n"
-PATH="$PATH":"$HOME/.local/scripts/"
-#alias -g vim="nvim"
+alias -g vim="nvim"
+alias -g hotspot="nmcli con up MineHotspot1"
+alias -g ls="eza -l --color=always --icons=always --no-user --group-directories-first"
+export PATH="$PATH":"$HOME/.local/scripts/"
+export EDITOR=nvim
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/usr/local/jdk-23/bin
 export PATH=$PATH:/opt/gradle/gradle-8.10.1/bin
 export XCURSOR_PATH=$XCURSOR_PATH:/home/charan/.local/share/icons
-#export PATH=$PATH:/usr/local/zig
+export PATH=$PATH:/usr/local/zig
+export PATH=$PATH:/home/charan/.local/bin/ghostty
 export SWAY_SCREENSHOT_DIR="/home/charan/Pictures"
 export QT_QPA_PLATFORMTHEME=qt6ct
 . /opt/asdf-vm/asdf.sh
+# fzf
+eval "$(fzf --zsh)"
+
+export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always --icons=always {} | head -200'"
+
+_fzf_comprun() {
+    local command=$1
+    shift
+
+    case "$command" in
+        cd) fzf --preview 'eza --tree --color=always {} | head -200' "$@" ;;
+        export|unset) fzf --preview "eval 'echo $'{}" "$@" ;;
+        ssh) fzf --preview 'dig {}' "$@" ;;
+        *) fzf --preview "bat -n --color=always --line-range :400 {}" "$@" ;;
+    esac
+}
+
+# zoxide
+eval "$(zoxide init --cmd cd zsh)"
+
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -133,6 +165,9 @@ export NVM_DIR="$HOME/.nvm"
 
 . "/home/charan/.deno/env"
 
+if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
+  source "$GHOSTTY_RESOURCES_DIR"/shell-integration/zsh/ghostty-integration
+fi
+
 # Created by `pipx` on 2024-09-28 23:27:34
 export PATH="$PATH:/home/charan/.local/bin"
-eval "$(zoxide init zsh)"
