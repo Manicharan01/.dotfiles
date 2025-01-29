@@ -9,7 +9,7 @@
 # Logo key. Use Mod1 for Alt.
 set $mod Mod1
 
-font pango:MesloLGS Nerd Font Mono 15px
+font pango:Iosevka Nerd Font Mono 20px
 # Home row direction keys, like vim
 set $left h
 set $down j

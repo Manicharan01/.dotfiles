@@ -1,6 +1,6 @@
 theme = "mine"
 bold-is-bright = true
-font-family = "JetBrains Mono"
+font-family = "Iosevka Nerd Font Mono"
 font-style = "Bold"
 font-size = 16
 #adjust-cell-height = 35%

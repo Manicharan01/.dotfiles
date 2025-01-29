@@ -14,6 +14,7 @@ source "${ZINIT_HOME}/zinit.zsh"
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
+zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
 # Add in snippets
@@ -36,7 +37,7 @@ bindkey '^n' history-search-forward
 
 # Personal Aliases
 alias -g vim="nvim"
-alias -g hotspot="nmcli con up MineHotspot1"
+alias -g hotspot="nmcli con up Hotspot"
 alias -g ls="eza -l --color=always --icons=always --no-user --group-directories-first"
 
 # Personal Exports and PATH variables
@@ -122,4 +123,4 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls $realpath'
-eval "$(oh-my-posh init zsh --config /home/charan/.config/ohmyposh/zen.toml)"
+eval "$(oh-my-posh init zsh --config /home/charan/.config/ohmyposh/tj.toml)"
