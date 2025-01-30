@@ -1,0 +1,777 @@
+clear
+ls
+cd ...
+ls
+clear
+eza
+clear
+where nvim
+sort-by name
+clear
+"12" | into int
+date now
+date now | date to-timezone "USA/Austin"
+date now | date to-timezone "Austin"
+[one two three] | yaml
+[one two three] | to yaml
+[one two three] | to json
+[one two three] | to toml
+clear
+{"name": "charan", "age": 23, "place": "vij"} | upsert language 'Rust'
+{"name": "charan", "age": 23, "place": "vij"} | upsert language 'Python<\n>'
+clear
+ls | sort-by size
+ls | sort-by type
+ls | sort-by name
+clea
+clear
+fuck
+clear
+exit
+clear
+ls
+clear
+exit
+clear
+ls
+clear
+nvim .
+clear
+tmux
+clear
+sort-by name
+sort-by list
+sort-by size
+clear
+fish
+clear
+cd ~
+clear
+ls
+y
+yazi
+clear
+ls
+ls --icons
+sort-by --help
+ls | sort-by name
+ls | sort-by size
+clear
+;
+clear
+yazi
+clear
+where nu
+whereis nushell
+clear
+exit
+clear
+where --help
+cd /LocalDisk/music/Telugu
+cd /
+clear
+ls
+cd LocalDisk
+ls
+clear
+cd music
+ls
+cd Music
+ls
+clear
+cd Telugu
+ls
+clear
+ls
+clear
+ls *.flac
+config nu
+clear
+^ls
+^eza
+clear
+nvim ~/.zshrc
+clear
+config nu
+clear
+source config
+clear
+tmux-sessionzer
+ls
+clear
+cd ~
+clear
+ls
+cd .local
+ls
+cd bin
+ls
+clear
+ls
+cdd ..
+cd ..
+ls
+cd scripts
+ls
+clear
+./tmux-sessionizer
+clear
+nvim ~/.zshrc
+config nu
+clear
+exit
+config nu
+clear
+exit
+keybindings
+keybindings list
+clear
+$nu.config-path
+exit
+clear
+bind-key "ctrl-f" {<\n>    run-external ["bash", "-c", "/home/charan/.local/scripts/tmux-sessionizer"]<\n>}
+clear
+help config nu
+help config nu -h
+help config nu -f keybindings
+clear
+help config nu
+help config nu -d
+config nu -d
+clear
+exit
+clear
+exit
+clear
+reload config
+watch config
+exit
+source /home/charan/.local/scripts/tmux-sessionizer
+./home/charan/.local/scripts/tmux-sessionizer
+clear
+cd .local/scripts/tmux-sessionizer
+cd .local/scripts/
+./tmux-sessionizer
+clear
+exit
+keybindings list | where type == events
+clear
+cd .local/scripts/
+ls
+clear
+./home/charan/.local/scripts/tmux-sessionizer
+clear
+cd ..
+cd ~
+clear
+exit
+nu
+exit
+nu
+exit
+./tmux-sessionizer
+$env.PATH | split row (char esep)
+pnpm
+clear
+$env.PATH | split row (char esep)
+bash ~/.local/scripts/tmux-sessionizer
+clear
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+ls
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+clear
+ls
+clear
+$env.EDITOR
+clear
+exit
+zi
+zig
+clear
+zig
+clear
+zip
+pacman -Qqem
+clear
+pacman -Qqem | fzf
+clear
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exi
+exit
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+nvim .
+clear
+ls
+ls | sort-by name
+ls | sort-by type
+clear
+ls
+clear
+eza
+ls
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+'export EDITOR=nvim' | str trim | parse 'export {name}={valut}' | transpose --header-row --as-record
+$env.EDITOR
+clear
+$env.EDITOR
+'export EDITOR=nvim' | str trim | parse 'export {name}={valut}' | transpose --header-row --as-record
+clear
+nvim .
+clear
+$env.PATH
+$env.PATH | split row (char esep)
+clear
+exit
+zig
+clear
+zig
+clear
+yay -S jdownloader2
+clear
+exit
+clear
+y
+clear
+yazi
+clear
+exit
+[ nu_plugin_inc<\n>  nu_plugin_polars<\n>  nu_plugin_gstat<\n>  nu_plugin_formats<\n>  nu_plugin_query<\n>] | each { cargo install $in --locked } | ignore
+clear
+ls
+clear
+nu-plugin-query
+plugin --help
+pluginn list
+plugin list
+clear
+exit
+clear
+plugin list
+clear
+exit
+curl -s https://ohmyposh.dev/install.sh | bash -s
+$env.Path = {$env.Path | append '/home/charan/.local/bin'}
+$env.Path
+clear
+nvim .
+clear
+ls
+clear
+exigt
+clear
+$env.Path
+$env.PATH
+clear
+$env.PATH | split row (char esep)
+clear
+$env.PATH | split row (char esep)
+clear
+exit
+clear
+$env.PATH | split row (char esep)
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+bash
+hash
+clear
+tmux-sessionzer
+^tmux-sessionzer
+clear
+bash
+exit
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+tmux-sessionzer
+clear
+exit
+tmux-sessionizer
+clear
+^tmux-sessionizer
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+exit
+ls
+clear
+vim
+sudo pacman -R vim
+clear
+vim .
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+vim .
+exit
+nmcli --help
+nmcli
+clear
+exit
+$env.PATH
+tmux-sessionizer
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+exit
+nvim .
+clera
+clear
+exit
+clear
+cd ~
+clear
+ls
+clear
+tmux-sessionizer.nu
+clear
+exit
+clear
+tmux-sessionizer.nu
+exit
+./tmux-sessionizer
+ls
+nvim .
+cd .local/scripts/
+clear
+ls
+source tmux-sessionizer.nu
+clear
+./tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+find
+find ~/Projects
+fd ~/Projects
+fd . ~/Projects
+clear
+fd . ~/Projects -maxdepth 1 
+fd --help
+fd . ~/Projects --min-depth 1 --max-depth 1 --type d
+fd . ~/Projects --min-depth 1 --max-depth 1 --type d | fzf
+fd . ~/Projects ~/.config --min-depth 1 --max-depth 1 --type d | fzf
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+basename '/home/charan/Projects/chess-engine'
+basename '/home/charan/Projects/chess-engine' | tr . _
+basename '/home/charan/Projects/chess-engine' | tr - _
+clear
+basename '/home/charan/Projects/chess-engine' | tr - _
+source tmux-sessionizer.nu
+clear
+exit
+source tmux-sessionizer.nu
+clear
+cd .local/scripts/
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+nvim .
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+pgrep tmux
+clear
+source tmux-sessionizer.nu
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+echo $TMUX
+$env.TMUX
+clear
+$env.TMUXclear
+clea
+clear
+source tmux-sessionizer.nu
+tmux ls
+clear
+tmux ls
+bash /home/charan/.local/scripts/tmux-sessionizer
+source tmux-sessionizer.nu
+tmux ls
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+tmux ls
+tmux kill-session -t ghostty
+tmux kill-session -t lost+found
+tmux kill-session -t nushell
+bash /home/charan/.local/scripts/tmux-sessionizer
+tmux kill-session -t nvim
+tmux kill-session -t zsh
+tmux kill-session -t zsh-syntax-highlighting
+clear
+tmux ls
+clear
+source tmux-sessionizer.nu
+cd .local/scripts/
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+tmux has-session -t=chess-engine
+tmux has-session -t=chess-engine 2>/dev/null
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+tmux ls
+clear
+source tmux-sessionizer.nu
+clear
+help nushell
+help
+help --find nushell
+help operators
+$env | table -e
+clear
+$env.Path | table -e
+clear
+gstat
+clear
+tmux has-session -t=chess-engine
+source tmux-sessionizer.nu
+help str
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+tmux ls
+clear
+source tmux-sessionizer.nu
+tmux ls
+clear
+tmux ls
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+tmux ls
+clear
+tmux ls
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+$env.TMUX | is-empty
+if ($env.TMUX | is-empty) {<\n>    "HellO"<\n>    tmux attach -t $basename_selected<\n>} else {<\n>    "HellO"<\n>    tmux switch-client -t $basename_selected<\n>}<\n>
+tmux has-session -t=$basename_selected err> /dev/null
+tmux has-session -t=bin err> /dev/null
+!(!!)
+!(tmux has-session -t=$basename_selected err> /dev/null)
+clear
+zsh
+clear
+tmux has-session -t=bin err> /dev/null
+! tmux has-session -t=bin err> /dev/null
+not(tmux has-session -t=bin err> /dev/nul)
+not(tmux has-session -t=bin err> /dev/null)
+!(tmux has-session -t=$basename_selected err> /dev/null)
+source tmux-sessionizer.nu
+clear
+help not
+help
+help --find not
+clear
+source tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+ls
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+source tmux-sessionizer.nu
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+source tmux-sessionizer.nu
+clear
+nvim .
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+source tmux-sessionizer.nu
+clear
+tmux-sessionizer.nu
+clear
+source tmux-sessionizer.nu
+clear
+./tmux-sessionizer.nu
+clear
+tmux-sessionizer.nu
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+tmux-sessionizer.nu
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+clear
+tmux-sessionizer.nu
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+exit
+clear
+cd .local/scripts/
+clear
+chmod +x tmux-sessionizer.nu
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+exit
+clear
+source tmux-sessionizer.nu
+clear
+tmux-sessionizer.nu
+source /home/charan/.local/scripts/tmux-sessionizer.nu
+sudo pacman -S fd
+clear
+sudo pacman -S fd
+clear
+nvim .
+vim .
+ls
+bat
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+exit
+exir
+exit
+clear
+exit
+clear
+$env.PATH | split row (char esep)
+bash
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+source /home/charan/.local/scripts/tmux-sessionizer.nu
+clear
+tmux-sessionizer.nu
+exit
+clear
+tmux-sessionizer.nu
+clear
+source /home/charan/.local/scripts/tmux-sessionizer.nu
+clear
+zsh
+clear
+/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin | split ":"
+help split
+/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin | split :
+split
+split -h
+let paths="/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin<\n>"
+let paths="/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin"
+let paths = /home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin
+let paths = "/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin"
+paths | split :
+paths | split(:)
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split(:)
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split chars ":"
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':'
+help for
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split list ':'
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':'
+help for
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | for path in $in { echo $path }
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { echo $it }
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| echo $it }
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| echo append $it }
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| echo 'append ' + $it }
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| 'append ' + $it }
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| 'append ' + $it + ' | '} | each { |it| $in + $it} | echo $it
+mut it
+mut it = ""
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| 'append ' + $it + ' | '} | each { |it| $in + $it} | echo $it
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| 'append ' + $it + ' | '} | let $it = ""  | each { |it| $in + $it} | echo $it
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| 'append ' + $it + ' | '} | mut it = ""  | each { |it| $in + $it} | echo $it
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| 'append ' + $it + ' | '} | str join " | "
+"/home/charan/.deno/bin:/home/charan/.local/share/pnpm:/home/charan/.asdf/shims:/opt/asdf-vm/bin:/home/charan/.cargo/bin:/usr/local/bin:/usr/bin:/usr/bin:/usr/local/bin:/home/charan/.local/bin:/home/charan/.local/scripts:/home/charan/.local/scripts/:/usr/local/go/bin:/usr/local/jdk-23/bin:/opt/gradle/gradle-8.10.1/bin:/usr/local/zig:/home/charan/.local/bin/ghostty:/home/charan/Personal/go/bin:/home/charan/.local/bin" | split row ':' | each { |it| $"append \"($it)\""} | str join " | "
+clear
+exit
+clear
+$env.PATH | split row (char esep)
+exit
+clear
+$env.PATH | split row (char esep)
+source tmux-sessionizer.nu
+clear
+exit
+clear
+exit
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+ls
+clear
+bash /home/charan/.local/scripts/tmux-sessionizer
+clear
+curl -s https://ohmyposh.dev/install.sh | bash -s
+oh-my-post init nu
+oh-my-posh init nu
+clear
+$env.PATH | split row (char esep)
+curl -s https://ohmyposh.dev/install.sh | bash -s
+clear
+ls /home/charan/.local/bin
+source /home/charan/.local/bin/oh-my-posh
+clear
+cd .local/bin/
+clea
+clear
+ls
+./oh-my-posh
+./oh-my-posh init --help
+./oh-my-posh init nu
+clear
+./oh-my-posh init nu
+clear
+ls
+clear
+oh-my-posh init nu
+clear
+sudo pacman -S oh-my-posh
+clear
+oh-my-posh
+clear
+ls
+clear
+gstat
+clear
+plugin list
+clear
+curl -s https://ohmyposh.dev/install.sh | bash -s
+oh-my-posh init nu
+clear
+$nu.env-path
+clear
+tmux ls
+clear
+tmux
+clear
+$env.TMUX
+$env.Tmux
+clear
+exit
+clear
+cd ~
+nvim .
+clear
+exit
+clear
+ls
+clear
+tmux
+clear
+cd .dotfiles/
+ls
+mkdir -p ohmyposh/.config/ohmyposh
+mkdir --help
+mkdir -v ohmyposh/.config/ohmyposh
+clear
+ls
+cd ohmyposh
+ls
+cd .config
+ls
+cd ohmyposh
+clear
+ls
+clear
+cd ~
+clear
+cd .dotfiles/
+cd ~/.dotfiles/
+ls
+clear
+stow ohmyposh
+ls
+clear
+cd ~/.config/
+ls
+exit
+clear
+ls
+clear
+exit
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+tsc
+clear
+tmux
+clear
+exit
+clear
+ls
+clear
+exit
