@@ -53,6 +53,7 @@ export SWAY_SCREENSHOT_DIR="/home/charan/Pictures"
 export QT_QPA_PLATFORMTHEME=qt6ct
 export PATH=$PATH:/home/charan/Personal/go/bin
 export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always --icons=always {} | head -200'"
+export GHOSTTY_RESOURCES_DIR="/home/charan/Personal/ghostty/zig-out/share/ghostty/"
 . /opt/asdf-vm/asdf.sh
 
 # Evals & fzf
