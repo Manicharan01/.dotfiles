@@ -1,8 +1,11 @@
 #!/usr/bin/bash
 
-pactl set-sink-mute alsa_output.pci-0000_00_1f.3.analog-stereo toggle
-
-volume=`pactl list sinks | grep '^[[:space:]]Volume:' | \
-    head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,'`
-
-notify-send -e -h int:value:"$volume%" -h string:x-canonical-private-synchronous:volume_notif -u low -i $HOME/.config/swaync/icons/volume-mute.png "Volume: Muted"
+sink=`pactl get-default-sink`
+isMute=`pactl get-sink-mute $sink | sed 's/^Mute: //'`
+if [ $isMute = "yes" ]; then
+    `pactl set-sink-mute $sink toggle`
+    notify-send -e -u low -i $HOME/.config/swaync/icons/volume-high.png "Volume: Unmuted"
+elif [ $isMute = "no" ]; then
+    `pactl set-sink-mute $sink toggle`
+    notify-send -e -u low -i $HOME/.config/swaync/icons/volume-mute.png "Volume: Muted"
+fi

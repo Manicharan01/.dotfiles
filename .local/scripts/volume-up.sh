@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
-pactl set-sink-volume 0 +5%
+sink=`pactl get-default-sink`
+`pactl set-sink-volume $sink +5%`
 
-volume=`pactl list sinks | grep '^[[:space:]]Volume:' | \
-    head -n $(( $SINK + 1 )) | tail -n 1 | sed -e 's,.* \([0-9][0-9]*\)%.*,\1,'`
+volume=`pactl get-sink-volume $sink | sed -n 's/.*\/\s*\([0-9]\+\)%.*/\1/p'`
 
 notify-send -e -h int:value:"$volume%" -h string:x-canonical-private-synchronous:volume_notif -u low -i $HOME/.config/swaync/icons/volume-high.png "Volume: $volume%"
