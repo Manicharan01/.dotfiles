@@ -1,7 +1,15 @@
-[submodule "nvim/.config/nvim"]
+[submodule ".config/nvim"]
 	path = .config/nvim
 	url = git@github.com:Manicharan01/nvim
 
-[submodule "ulauncher/.config/ulauncher/user-themes/ulauncher-adwaita-darkish"]
+[submodule ".config/ulauncher/user-themes/ulauncher-adwaita-darkish"]
 	path = .config/ulauncher/user-themes/ulauncher-adwaita-darkish
 	url = git@github.com:shepda/ulauncher-adwaita-darkish.git
+
+[submodule ".config/tmux/plugins/tokyo-night-tmux"]
+    path = .config/tmux/plugins/tokyo-night-tmux
+    url = git@github.com:janoamaral/tokyo-night-tmux.git
+
+[submodule ".config/tmux/plugins/tpm"]
+    path = .config/tmux/plugins/tpm
+    url = git@github.com:tmux-plugins/tpm.git

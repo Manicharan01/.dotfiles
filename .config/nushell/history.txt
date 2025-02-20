@@ -775,3 +775,23 @@ clear
 ls
 clear
 exit
+clear
+ls
+clear
+ls
+clear
+fish
+exit
+clear
+ls
+clear
+alias ls="eza --colors=always --icons=always -l --group-directories-first"
+alias ls = "eza --colors=always --icons=always -l --group-directories-first"
+alias ls = eza --colors=always --icons=always -l --group-directories-first
+ls
+clear
+alias ls = eza --color=always --icons=always -l --group-directories-first
+ls
+ls -la
+clear
+exit

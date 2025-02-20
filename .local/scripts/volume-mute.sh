@@ -1,11 +1,11 @@
 #!/usr/bin/bash
+sink="@DEFAULT_SINK@"
+isMute=$(wpctl get-volume $sink | grep -o "MUTED")
 
-sink=`pactl get-default-sink`
-isMute=`pactl get-sink-mute $sink | sed 's/^Mute: //'`
-if [ $isMute = "yes" ]; then
-    `pactl set-sink-mute $sink toggle`
+if [ "$isMute" = "MUTED" ]; then
+    wpctl set-mute $sink 0
     notify-send -e -u low -i $HOME/.config/swaync/icons/volume-high.png "Volume: Unmuted"
-elif [ $isMute = "no" ]; then
-    `pactl set-sink-mute $sink toggle`
+else
+    wpctl set-mute $sink 1
     notify-send -e -u low -i $HOME/.config/swaync/icons/volume-mute.png "Volume: Muted"
 fi

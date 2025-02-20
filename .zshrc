@@ -38,7 +38,7 @@ bindkey '^n' history-search-forward
 # Personal Aliases
 alias -g vim="nvim"
 alias -g hotspot="nmcli con up Hotspot"
-alias -g ls="eza -l --color=always --icons=always --no-user --group-directories-first"
+alias -g ls="eza --color=always --icons=always --group-directories-first"
 
 # Personal Exports and PATH variables
 export PATH="$PATH":"$HOME/.local/scripts/"
@@ -82,6 +82,10 @@ function y() {
 		builtin cd -- "$cwd"
 	fi
 	rm -f -- "$tmp"
+}
+
+function unzip_to_folder() {
+    unzip "$1" -d "${1%.*}"
 }
 
 # pnpm
