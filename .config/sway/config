@@ -53,7 +53,7 @@ seat * xcursor_theme Banana-Catppuccin-Mocha 32
 #
 # Example configuration:
 #
-input "1267:12423:ELAN1300:00_04F3:3087_Touchpad" {
+input "1267:12423:ELAN1200:00_04F3:3087_Touchpad" {
     dwt enabled
     tap enabled
     natural_scroll disabled
